@@ -1,0 +1,11 @@
+{
+  "Produto": [
+    {
+     "nome":"",
+     "quantidade": null,
+     "valor": null,
+     "fornecedor":"",
+     "data_Cadastro":  null
+    }
+  ]
+}
