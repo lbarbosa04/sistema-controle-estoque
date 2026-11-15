@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon src/connect.js"
+    "test": "nodemon src/routes/connect.js"
   },
   "keywords": [],
   "author": "",

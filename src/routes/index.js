@@ -1,7 +1,7 @@
 const express = require('express');
 const routes = express();
 routes.use(express.json())
-const produtosCadastrados = require('../database/produtosCadastros.json')
+const produtosCadastrados = require('../../database/produtosCadastros.json')
 
 routes.get('/home', (req, res) => {
     res.send("Pegou");
@@ -19,7 +19,7 @@ routes.post('/adicionarProdutos', (req, res) => {
    }
 
    produtosCadastrados.Produto.push({nome, quantidade, valor, fornecedor, cadastro_produto});
-   return res.status(201).json({mensagem:"produto cadaastrado!"});
+   return res.status(201).json({mensagem:"produto cadastrado!"});
 });
 
 module.exports = routes;
